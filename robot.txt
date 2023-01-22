@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/ 
+Sitemap:  https://420finder.net/sitemap.xml

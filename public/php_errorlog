@@ -1,0 +1,4 @@
+[16-Jul-2022 10:59:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/420finder.net/public_html/public/../bootstrap/app.php' (include_path='.:/usr/local/php80/pear') in /home/customer/www/420finder.net/public_html/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/420finder.net/public_html/public/index.php on line 47

@@ -1,0 +1,613 @@
+/* =================================================================
+                        UTILITY CLASSES
+==================================================================== */
+.mb-1-5 {
+    margin-bottom: 1.5rem;
+}
+
+/* ==================================================================
+                            BUSINESS 1
+===================================================================== */
+.hero-area {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem 0;
+}
+
+.hero-area .marker {
+    text-align: center;
+}
+
+.hero-area .marker img {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.hero-area .hero-area-left-content p:first-child {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-weight: 300;
+    line-height: 41.1px;
+    color: #e5e5e5;
+    text-shadow: 0px 2px 5px black;
+}
+
+.hero-area .hero-area-left-content p:first-child em {
+    font-weight: 600;
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+.hero-area .hero-area-left-content p:last-child {
+    color: #e5e5e5;
+}
+
+.hero-area .hero-area-left-content p:last-child em {
+    color: #fff;
+}
+
+.hero-area .hero-btns-wrap {
+    margin-top: 1.7rem;
+}
+
+.hero-area .hero-btns-wrap .hero-btn {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 1px 1px 0px black;
+    padding: 0.7rem 1.8rem;
+    display: inline-block;
+    box-shadow: 1px 3px 0px 0px rgb(0 0 0 / 31%);
+}
+
+.hero-area .hero-btns-wrap .hero-btn:first-child {
+    background: linear-gradient(to right, #ffe102 4%, #f48721 46%);
+    margin-right: 1.8rem;
+}
+
+.hero-area .hero-btns-wrap .hero-btn:last-child {
+    background: #f48721;
+}
+
+.hero-area .hero-area-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-area .hero-area-right img {
+    width: 100%;
+}
+
+/* ====================== ICONS ================== */
+.icons {
+    padding: 4rem 0;
+}
+
+.icons .icons-head {
+    margin-bottom: 3rem;
+}
+
+.icons .icons-head h3 {
+    width: 58%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #4d4d4d;
+    font-size: 1.8rem;
+    font-style: italic;
+    text-shadow: 0px 2px 2px black;
+}
+
+.icons .icons-body img {
+    width: 100%;
+}
+
+.icons .icon-box {
+    padding: 1rem;
+    text-align: center;
+}
+
+.icons .icon-box .icon-img {
+    width: 100px;
+    height: 138px;
+    margin: 0 auto;
+}
+
+.icons .icon-box .icon-img.person-img img {
+    height: 135px;
+}
+
+.icons .icon-box .icon-img.leaf-img {
+    width: 200px;
+}
+
+.icons .icon-box .icon-img.tab-img {
+    width: 170px;
+}
+
+.icons .icon-box h3 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #bababa;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 20px;
+}
+
+.icons .icon-box h3 .sp-green {
+    color: #39b54a;
+}
+
+.icons .icon-box h3 .sp-yellow {
+    color: #f8a71b;
+}
+
+/* ADS */
+.ads {
+    padding: 4rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ads .ads-head {
+    margin-bottom: 3rem;
+}
+
+.ads .ads-head h3 {
+    width: 58%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #4d4d4d;
+    font-size: 1.8rem;
+    font-style: italic;
+    text-shadow: 0px 2px 2px black;
+}
+
+.ads .ads-body img {
+    width: 100%;
+}
+
+.ads .ads-icons {
+    width: 20%;
+    margin: 4rem auto 0;
+}
+
+.ads .ads-icons img {
+    width: 100%;
+}
+
+/* SOLUTIONS BRANDS */
+.solutions-brands {
+    font-family: 'Poppins', sans-serif;
+}
+
+.solutions-brands img {
+    width: 100%;
+}
+
+.solutions-brands .solutions-brands-col {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.solutions-brands .solutions-brands-content h3 {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.solutions-brands .solutions-brands-content h3 strong {
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solutions-brands .solutions-brands-content h3 strong:last-child {
+    color: #f8a71b;
+}
+
+.solutions-brands .solutions-brands-content p {
+    font-size: 0.9rem;
+}
+
+.solutions-brands .solutions-brands-content a {
+    display: inline-block;
+    background: #f8a71b;
+    color: #fff;
+    padding: 0.5rem 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 6px;
+    margin-top: 1.6rem;
+}
+
+.solutions-brands .solutions-brands-content .icons-bg {
+    position: absolute;
+    right: 31px;
+    top: 0;
+    width: 200px;
+    z-index: -1;
+}
+
+.solutions-brands .solutions-brands-content .icons-bg img {
+    width: 100%;
+}
+
+/* SOLUTIONS RETAILERS */
+.solutions-retailers {
+    padding: 6rem 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+.solutions-retailers img {
+    width: 100%;
+}
+
+.solutions-retailers .solutions-retailers-col {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.solutions-retailers .solutions-retailers-content h3 {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.solutions-retailers .solutions-retailers-content h3 strong {
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solutions-retailers .solutions-retailers-content h3 strong:last-child {
+    color: #39b54a;
+}
+
+.solutions-retailers .solutions-retailers-content p {
+    font-size: 0.9rem;
+}
+
+.solutions-retailers .solutions-retailers-content a {
+    display: inline-block;
+    background: #39b54a;
+    color: #fff;
+    padding: 0.5rem 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 6px;
+    margin-top: 1.6rem;
+}
+
+.solutions-retailers .solutions-retailers-content .icons-bg {
+    position: absolute;
+    left: 31px;
+    top: 0;
+    width: 200px;
+    z-index: -1;
+}
+
+.solutions-retailers .solutions-retailers-content .icons-bg img {
+    width: 100%;
+}
+
+/* ==================================================================
+                            BUSINESS 2
+===================================================================== */
+
+/* PAGES RETAILERS */
+
+.pages-retailers.solutions-retailers {
+    text-align: left;
+}
+
+.pages-retailers.solutions-retailers .solutions-retailers-content a {
+    background: #f8a71b;
+    margin-left: 3rem;
+}
+
+.pages-retailers.solutions-retailers .solutions-retailers-content h3 strong:last-child {
+    color: #f8a71b;
+}
+
+.pages-retailers.solutions-retailers .solutions-retailers-content {
+    padding-left: 3rem;
+}
+
+.pages-retailers.solutions-retailers .solutions-retailers-content p {
+    margin-bottom: 0.3rem;
+}
+
+.pages-retailers.solutions-retailers .solutions-retailers-content h3 {
+    margin-bottom: 1.3rem;
+}
+
+/* PAGES BRANDS */
+.pages-brands.solutions-brands {
+    text-align: left;
+    margin-bottom: 3.5rem;
+}
+
+.pages-brands.solutions-brands .solutions-brands-content a {
+    background: #39b54a;
+    margin-left: 3rem;
+}
+
+.pages-brands.solutions-brands .solutions-brands-content h3 strong:last-child {
+    color: #39b54a;
+}
+
+.pages-brands.solutions-brands .solutions-brands-content p {
+    margin-bottom: 0.3rem;
+}
+
+.pages-brands.solutions-brands .solutions-brands-content h3 {
+    margin-bottom: 1.3rem;
+}
+
+/* Phones */
+.phones {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 4rem 0;
+}
+
+.phones .phones-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.phones .phones-bg img {
+    width: 100%;
+    height: 600px;
+}
+
+.phones .phone-col {
+    display: flex;
+    align-items: center;
+}
+
+.phones .phone-content {
+    color: #fff;
+}
+
+.phones .phone-imgs {
+    margin-top: -3.2rem;
+    text-align: center;
+}
+
+.phones .phone-imgs img {
+    width: 460px;
+}
+
+.phones a {
+    background: linear-gradient(to right, #ffe102 4%, #f48721 46%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 1px 1px 0px black;
+    padding: 0.7rem 1.8rem;
+    display: inline-block;
+    box-shadow: 1px 3px 0px 0px rgb(0 0 0 / 31%);
+    font-style: italic;
+    margin-top: 2.4rem;
+}
+
+.phones .phone-content h3 {
+    font-size: 2.7rem;
+    font-style: italic;
+}
+
+/* ==================================================================
+                            BUSINESS 3
+===================================================================== */
+
+/* Circle Icons */
+.circle-icons {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 4rem 0;
+}
+
+.circle-icons.phones .phones-bg {
+    top: -226px;
+}
+
+.circle-icons .icon-img img {
+    width: 74px;
+}
+
+.ads.circle-icons {
+    padding: 4rem 0 18rem;
+}
+
+.circle-icons .icon-wrap:nth-child(2) {
+    margin-top: -2rem;
+}
+
+.circle-icons .icon-wrap:nth-child(3) {
+    margin-top: -4rem;
+}
+
+.circle-icons .icon-content h3 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle-icons .icon-content p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+/* Get Discovered */
+
+.solutions-retailers.pages-retailers.get-discovered {
+    margin-top: 13rem;
+}
+
+.solutions-retailers.pages-retailers.get-discovered .solutions-retailers-content p {
+    font-weight: 500;
+}
+
+.solutions-retailers.pages-retailers.get-discovered .solutions-retailers-content h3 strong:last-child {
+    color: #444;
+}
+
+.solutions-brands.pages-brands.get-setup .solutions-brands-content h3 strong:last-child {
+    color: #444;
+}
+
+.solutions-brands.pages-brands.get-setup .solutions-brands-content p {
+    font-weight: 500;
+}
+
+/* ==================================================================
+                            BUSINESS 4
+===================================================================== */
+.solutions-retailers.pages-retailers.get-discovered.create .solutions-retailers-content p {
+    margin-bottom: 1rem;
+}
+
+.solutions-brands.pages-brands.get-setup.manage .solutions-brands-content p {
+    margin-bottom: 1rem;
+}
+
+/* ==================================================================
+                            BUSINESS 5
+===================================================================== */
+
+.phones.circle-icons.easy-sign-up .icon-content p {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 26px;
+}
+
+.phones.circle-icons.easy-sign-up .icon-wrap:first-child {
+    padding-right: 3rem;
+}
+
+.phones.circle-icons.easy-sign-up .icon-wrap:last-child {
+    padding-left: 3rem;
+}
+
+/* ===================================================================
+                        RESPONSIVE
+====================================================================== */
+
+@media(max-width: 767px) {
+    .hero-area .hero-area-left {
+        order: 2;
+    }
+
+    .hero-area .hero-area-right {
+        order: 1;
+        margin-bottom: 1rem;
+    }
+
+    .hero-area .hero-area-right img {
+        width: 300px;
+    }
+
+    .hero-area .hero-area-left-content p:first-child {
+        font-size: 1.5rem;
+    }
+
+    .hero-area .hero-area-left-content p:first-child em {
+        font-size: 1.9rem;
+    }
+
+    .hero-area .hero-btns-wrap .hero-btn {
+        font-size: 1rem;
+    }
+
+    .icons .icons-head h3 {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .ads .ads-head h3 {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .ads .ads-icons {
+        width: 60%;
+    }
+
+    .phones .phone-imgs {
+        margin-top: 3rem;
+    }
+
+    .phones .phones-bg img {
+        height: 1130px;
+    }
+
+    .ads.md {
+        margin-bottom: 12rem;
+    }
+
+    .phones .phones-bg {
+        top: -180px;
+    }
+
+    .circle-icons .icon-wrap:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .circle-icons .icon-wrap:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .phones.circle-icons .phones-bg img {
+        height: 842px;
+    }
+
+    .solutions-retailers.pages-retailers.get-discovered {
+        margin-top: 9rem;
+    }
+
+    .phones.circle-icons.easy-sign-up .icon-wrap:first-child {
+        padding-right: 15px;
+    }
+
+    .phones.circle-icons.easy-sign-up .icon-wrap:last-child {
+        padding-left: 15px;
+    }
+
+    .pages-retailers.solutions-retailers .solutions-retailers-content {
+        padding-left: unset;
+    }
+
+    .circle-icons.phones .phones-bg {
+        top: -190px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .circle-icons.phones .phones-bg {
+        top: -168px;
+    }
+
+    .solutions-retailers.pages-retailers.get-discovered {
+        margin-top: 0rem;
+    }
+
+    .phones.circle-icons.easy-sign-up .phones-bg img {
+        height: 771px;
+    }
+}

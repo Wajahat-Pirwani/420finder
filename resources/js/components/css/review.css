@@ -1,0 +1,290 @@
+.review-wrapper {
+    margin: 46px auto;
+    max-width: 792px;
+}
+
+.review-wrapper .review-head-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.review-head-wrap .review-head h2 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.review-head-wrap .write-review button {
+    position: relative;
+    display: inline-grid;
+    grid-auto-flow: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 4rem;
+    margin: 0px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: 9999px;
+    color: #fff;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: all 200ms ease-in-out 0s;
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+    background-color: #f8971c;
+    border: 0;
+}
+
+.details-progress-bar.retailer-review .progress {
+    flex: 1;
+    width: unset !important;
+}
+
+.details-progress-bar.retailer-review span {
+    width: unset !important;
+}
+
+.details-progress-bar.retailer-review .progress-wrap {
+    padding-bottom: 0.2rem;
+}
+
+.details-progress-bar.retailer-review .progress-wrap span:first-child {
+    margin-right: 0.8rem !important;
+    font-weight: 700;
+    color: rgb(37, 41, 53);
+    text-decoration: underline;
+}
+
+.details-total-reviews.retailer-review {
+    width: 150px;
+}
+
+.customer-review-wrap .customer-review-item {
+    margin-bottom: 1.4rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0.0625rem 0.1875rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    transition: box-shadow 300ms ease 0s;
+    width: 100%;
+}
+
+.customer-review-item .customer-review-head {
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.customer-review-head .customer-review-head-img img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.customer-review-head .customer-review-head-content span:first-child {
+    color: rgb(37, 41, 53);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 0.96rem;
+    line-height: 18px;
+}
+
+.customer-review-head .customer-review-head-content span:last-child {
+    color: rgb(96, 100, 111);
+    font-size: 0.9rem;
+}
+
+.customer-review-head .customer-review-head-content {
+    margin-left: 0.5rem;
+}
+
+.customer-review-item .customer-review-body {
+    padding: 0 1rem 1.5rem;
+}
+
+.customer-review-body .customer-review-desc p {
+    color: rgb(74, 74, 74);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+
+.customer-review-body .customer-review-rating {
+    display: flex;
+    align-items: center;
+}
+
+.customer-review-rating .customer-review-rating-star svg {
+    width: 19px;
+    height: 19px;
+}
+
+.customer-review-body .customer-review-rating .review-avg span {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    display: inline-block;
+    margin-left: 0.4rem;
+}
+
+.customer-review-body .customer-review-desc {
+    margin-top: 1rem;
+}
+
+/* Review Retailer Dialog */
+
+.retailer-review-dialog {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retailer-review-dialog .backdrop {
+    position: fixed;
+    background: rgba(37, 41, 53, 0.85);
+    width: 100%;
+    height: 100%;
+}
+
+.retailer-review-dialog .review-modal-content {
+    background-color: #fff;
+    position: relative;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.retailer-review-dialog .review-modal-content .close-btn {
+    background: rgb(255, 255, 255);
+    color: rgb(74, 74, 74);
+    border-bottom: 0.0625rem solid rgb(230, 229, 229);
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0.4rem 1rem 1rem;
+}
+
+.review-modal-content .close-btn span {
+    margin: 0px 0.5rem 0px 0px;
+    padding: 0.5rem;
+}
+
+.review-modal-content .review-modal-content-body {
+    padding: 2rem;
+}
+
+.review-modal-content .review-modal-content-body h3 {
+    margin-bottom: 2rem;
+}
+
+.review-modal-content-body .review-modal-content-action button,
+.review-modal-content-body .review-modal-content-action a {
+    position: relative;
+    display: inline-grid;
+    grid-auto-flow: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 4rem;
+    margin: 0px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: 9999px;
+    color: #60646f;
+    box-shadow: inset 0 0 0 0 0;
+    transition: all 200ms ease-in-out 0s;
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.review-modal-content-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-modal-content-action button,
+.review-modal-content-action a {
+    flex: 1;
+}
+
+.review-modal-content-action a {
+    margin-left: 0.5rem !important;
+    background-color: #f8971c !important;
+    color: #fff !important;
+    border: 2px solid #f8971c;
+}
+
+.review-wrapper .review-form {
+    padding: 2rem 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 2rem 0;
+}
+
+.review-form .star-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.review-form .star-rating svg {
+    width: 19px;
+    height: 19px;
+}
+
+.review-form .star-rating .rating-num {
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.details-progress-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .customer-review-wrap .pagination {
+        width: 60%;
+    }
+}
+
+@media(max-width: 400px) {
+    .customer-review-wrap .pagination {
+        width: 100%;
+    }
+}

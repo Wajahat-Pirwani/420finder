@@ -1,0 +1,85 @@
+.v-mobile-search {
+    position: relative;
+    align-items: center;
+}
+
+.v-mobile-search .search_input {
+    background: rgb(238, 238, 238);
+    border-radius: 0.25rem;
+    border: 0px;
+    color: rgb(74, 74, 74);
+    font-size: 0.875rem;
+    height: 100%;
+    outline: none;
+    padding: 0px 0.5rem;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    margin-top: -1px;
+}
+
+.v-search-results {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+    width: 102%;
+    border: 1px solid rgb(238, 238, 238);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.v-location-results ul,
+.v-search-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.v-location-results ul li,
+.v-search-results ul li {
+    padding: 0.7rem 0 0.7rem 1rem;
+    cursor: pointer;
+    margin: 0.1rem 0;
+    font-size: 0.9rem;
+    color: rgb(124, 124, 124);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    width: 100%;
+}
+
+.v-search-results ul li:first-child {
+    margin-top: 0;
+}
+
+.v-search-results ul li:last-child {
+    margin-bottom: 0;
+}
+
+.v-location-results ul li:hover,
+.v-search-results ul li:hover {
+    background: rgb(238, 238, 238);
+}
+
+.v-search-results ul li span:first-child {
+    padding-right: 0.3rem;
+}
+
+.v-location-results ul li .highlight,
+.v-search-results ul li .highlight {
+    padding: 0 !important;
+    font-weight: bold;
+    color: #777777;
+}
+
+.current-location-btn .current-location-icon {
+    padding-right: 0.1rem;
+    padding-left: 0.2rem;
+}
+
+.v-mobile-pad {
+    padding: 1.1rem;
+}
